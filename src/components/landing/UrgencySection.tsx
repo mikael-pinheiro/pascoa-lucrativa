@@ -1,16 +1,36 @@
+'use client';
+
 import { Button } from '@/components/ui/button';
 import { CalendarClock } from 'lucide-react';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 export function UrgencySection() {
+  const [currentDate, setCurrentDate] = useState('');
+
+  useEffect(() => {
+    const today = new Date();
+    const options: Intl.DateTimeFormatOptions = {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    };
+    setCurrentDate(today.toLocaleDateString('pt-BR', options));
+  }, []);
+
   return (
     <section id="urgencia" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <CalendarClock className="mx-auto h-12 w-12 text-primary" />
           <h2 className="mt-4 font-headline text-3xl font-bold tracking-tighter text-secondary sm:text-4xl md:text-5xl">
-            A Páscoa acontece uma vez por ano
+            Oferta válida somente hoje
           </h2>
+          {currentDate && (
+            <p className="mt-4 text-2xl font-bold text-primary">
+              {currentDate}
+            </p>
+          )}
           <p className="mt-4 text-lg text-muted-foreground">
             Se você não se preparar agora… vai ter que esperar mais 12 meses.
           </p>
