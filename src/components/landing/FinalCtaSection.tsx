@@ -16,10 +16,15 @@ export function FinalCtaSection() {
             Pare de vender sem lucro. Pare de improvisar. Comece a trabalhar com
             estratégia.
           </p>
-          <div className="my-8 h-px w-24 bg-primary-foreground/50 mx-auto" />
-          <p className="text-xl font-bold text-primary-foreground">
-            💰 Transforme sua produção em lucro de verdade.
-          </p>
+          <div className="my-8">
+            <p className="text-2xl text-primary-foreground/80 line-through">
+              De R$99,90
+            </p>
+            <p className="text-6xl font-bold text-white">
+              por R$27,90
+            </p>
+            <p className="text-sm text-secondary-foreground/70 mt-1">Pagamento único, acesso vitalício.</p>
+          </div>
           <div className="mt-10">
             <Button size="lg" className="w-full sm:w-auto" asChild>
               <Link href="#">QUERO LUCRAR NESTA PÁSCOA AGORA</Link>

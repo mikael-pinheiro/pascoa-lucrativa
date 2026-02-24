@@ -31,6 +31,15 @@ export function UrgencySection() {
               {currentDate}
             </p>
           )}
+           <div className="my-8">
+            <p className="text-2xl text-muted-foreground line-through">
+              De R$99,90
+            </p>
+            <p className="text-6xl font-bold text-primary">
+              por R$27,90
+            </p>
+            <p className="text-sm text-muted-foreground mt-1">Pagamento único, acesso vitalício.</p>
+          </div>
           <p className="mt-4 text-lg text-muted-foreground">
             Se você não se preparar agora… vai ter que esperar mais 12 meses.
           </p>
