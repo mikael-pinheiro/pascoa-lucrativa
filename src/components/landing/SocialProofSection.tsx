@@ -43,12 +43,6 @@ export function SocialProofSection() {
             </Card>
           ))}
         </div>
-        <div className="mt-8 text-center">
-          <p className="text-sm text-muted-foreground">
-            (adicione aqui prints, números reais e depoimentos quando tiver —
-            isso aumenta muito a conversão)
-          </p>
-        </div>
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ export function AuthoritySection() {
             <h2 className="font-headline text-3xl font-bold tracking-tighter text-secondary sm:text-4xl">
               Aprenda com quem vive isso na prática
             </h2>
-            <p className="text-xl font-bold text-foreground">Mariana Missagia</p>
+            <p className="text-xl font-bold text-foreground">Viviane De Castro</p>
             <p className="text-lg text-muted-foreground">
               já ajudou centenas de confeiteiras a transformarem datas sazonais
               em picos de faturamento.
