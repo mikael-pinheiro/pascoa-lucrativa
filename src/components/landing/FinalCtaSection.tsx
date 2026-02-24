@@ -20,7 +20,7 @@ export function FinalCtaSection() {
             <p className="text-2xl text-primary-foreground/80 line-through">
               De R$99,90
             </p>
-            <p className="text-6xl font-bold text-white">
+            <p className="text-5xl font-bold text-white sm:text-6xl">
               por R$27,90
             </p>
             <p className="text-sm text-secondary-foreground/70 mt-1">Pagamento único, acesso vitalício.</p>

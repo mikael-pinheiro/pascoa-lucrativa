@@ -35,7 +35,7 @@ export function UrgencySection() {
             <p className="text-2xl text-muted-foreground line-through">
               De R$99,90
             </p>
-            <p className="text-6xl font-bold text-primary">
+            <p className="text-5xl font-bold text-primary sm:text-6xl">
               por R$27,90
             </p>
             <p className="text-sm text-muted-foreground mt-1">Pagamento único, acesso vitalício.</p>

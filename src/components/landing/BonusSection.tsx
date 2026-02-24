@@ -21,7 +21,7 @@ export function BonusSection() {
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Bônus exclusivos
           </h2>
-          <div className="mt-8 grid grid-cols-1 gap-4 text-left sm:grid-cols-2">
+          <div className="mt-8 inline-grid grid-cols-1 gap-4 text-left sm:grid-cols-2">
             {bonuses.map((bonus) => (
               <div key={bonus.text} className="flex items-center gap-4 rounded-lg bg-card p-4">
                 <bonus.icon className="h-8 w-8 text-secondary" />

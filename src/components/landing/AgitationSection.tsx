@@ -16,7 +16,7 @@ export function AgitationSection() {
           <h3 className="font-headline text-2xl font-bold tracking-tighter text-foreground sm:text-3xl">
             Sem estratégia você:
           </h3>
-          <ul className="mt-6 grid grid-cols-1 gap-4 text-left md:grid-cols-2">
+          <ul className="mt-6 inline-grid grid-cols-1 gap-4 text-left md:grid-cols-2">
             {points.map((point, index) => (
               <li key={index} className="flex items-start gap-3">
                 <XCircle className="mt-1 h-5 w-5 flex-shrink-0 text-destructive" />

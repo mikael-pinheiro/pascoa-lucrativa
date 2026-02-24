@@ -25,16 +25,16 @@ export function HeroSection() {
               <Link href="#cta">Quero lucrar nesta Páscoa agora</Link>
             </Button>
           </div>
-          <div className="mt-6 grid grid-cols-1 gap-4 text-left sm:grid-cols-3 sm:gap-6">
-            <div className="flex items-center gap-2">
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6 sm:text-left">
+            <div className="flex items-center justify-center gap-2 sm:justify-start">
               <Wallet className="h-5 w-5 text-primary" />
               <span className="font-semibold">Venda mais</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-center gap-2 sm:justify-start">
               <Workflow className="h-5 w-5 text-primary" />
               <span className="font-semibold">Trabalhe menos</span>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center justify-center gap-2 sm:justify-start">
               <PackageCheck className="h-5 w-5 text-primary" />
               <span className="font-semibold">Produza sem desperdícios</span>
             </div>

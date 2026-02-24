@@ -24,7 +24,7 @@ export function SocialProofSection() {
             Quem já aplicou, já lucrou
           </h2>
         </div>
-        <div className="mx-auto mt-8 grid max-w-5xl gap-6 lg:grid-cols-3">
+        <div className="mx-auto mt-8 grid grid-cols-1 max-w-5xl gap-6 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
