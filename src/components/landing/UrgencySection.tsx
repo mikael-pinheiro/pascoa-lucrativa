@@ -33,7 +33,7 @@ export function UrgencySection() {
           )}
            <div className="my-8">
             <p className="text-2xl text-muted-foreground line-through">
-              De R$99,99
+              De R$27,90
             </p>
             <p className="text-5xl font-bold text-primary sm:text-6xl">
               por R$15,99
@@ -50,7 +50,7 @@ export function UrgencySection() {
           </p>
           <div className="mt-8">
             <Button size="lg" asChild>
-              <Link href="#cta">Garanta seu acesso hoje</Link>
+              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">Garanta seu acesso hoje</Link>
             </Button>
           </div>
         </div>

@@ -34,7 +34,7 @@ export function SolutionSection() {
           </p>
           <div className="mt-10">
             <Button size="lg" asChild>
-              <Link href="#cta">Quero aplicar o método agora</Link>
+              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">Quero aplicar o método agora</Link>
             </Button>
           </div>
         </div>

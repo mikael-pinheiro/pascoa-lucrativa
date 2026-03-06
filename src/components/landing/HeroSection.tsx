@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export function HeroSection() {
   return (
-    <section id="hero" className="w-full py-20 md:py-32 lg:py-40 bg-accent">
+    <section id="hero" className="w-full bg-accent py-12 md:py-20 lg:py-24 xl:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto grid max-w-4xl items-center gap-6 text-center">
           <div className="space-y-4">
@@ -22,10 +22,10 @@ export function HeroSection() {
           </div>
           <div className="mx-auto mt-4 flex w-full max-w-md flex-col items-center gap-4 sm:max-w-none sm:flex-row sm:justify-center">
             <Button size="lg" asChild className="w-full sm:w-auto">
-              <Link href="#cta">Quero lucrar nesta Páscoa agora</Link>
+              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">Quero lucrar nesta Páscoa agora</Link>
             </Button>
           </div>
-          <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-6 sm:text-left">
+          <div className="mt-6 grid grid-cols-1 gap-4 text-center sm:grid-cols-3 sm:gap-6">
             <div className="flex items-center justify-center gap-2 sm:justify-start">
               <Wallet className="h-5 w-5 text-primary" />
               <span className="font-semibold">Venda mais</span>

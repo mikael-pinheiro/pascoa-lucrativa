@@ -18,7 +18,7 @@ export function FinalCtaSection() {
           </p>
           <div className="my-8">
             <p className="text-2xl text-primary-foreground/80 line-through">
-              De R$99,99
+              De R$27,90
             </p>
             <p className="text-5xl font-bold text-white sm:text-6xl">
               por R$15,99
@@ -29,7 +29,7 @@ export function FinalCtaSection() {
           </div>
           <div className="mt-10">
             <Button size="lg" className="w-full sm:w-auto" asChild>
-              <Link href="#">QUERO LUCRAR NESTA PÁSCOA AGORA</Link>
+              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">QUERO LUCRAR NESTA PÁSCOA AGORA</Link>
             </Button>
             <p className="mt-2 text-sm text-secondary-foreground/70">
               Acesso imediato após a inscrição.
