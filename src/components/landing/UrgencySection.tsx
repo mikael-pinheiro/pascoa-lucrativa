@@ -33,12 +33,14 @@ export function UrgencySection() {
           )}
            <div className="my-8">
             <p className="text-2xl text-muted-foreground line-through">
-              De R$99,90
+              De R$99,99
             </p>
             <p className="text-5xl font-bold text-primary sm:text-6xl">
-              por R$27,90
+              por R$15,99
             </p>
-            <p className="text-sm text-muted-foreground mt-1">Pagamento único, acesso vitalício.</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Pagamento único, acesso vitalício.
+            </p>
           </div>
           <p className="mt-4 text-lg text-muted-foreground">
             Se você não se preparar agora… vai ter que esperar mais 12 meses.

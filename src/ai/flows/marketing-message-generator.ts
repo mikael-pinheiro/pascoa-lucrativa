@@ -16,7 +16,7 @@ const MarketingMessageGeneratorInputSchema = z.object({
     .describe('The name of the Easter confectionery product (e.g., "Ovo de Páscoa Crocante").'),
   productPrice: z
     .string()
-    .describe('The selling price of the product (e.g., "R$ 69,90", "a partir de R$ 35").'),
+    .describe('The selling price of the product (e.g., "R$ 15,99", "a partir de R$ 35").'),
   keySellingPoints: z
     .string()
     .describe(

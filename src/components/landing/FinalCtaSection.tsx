@@ -18,12 +18,14 @@ export function FinalCtaSection() {
           </p>
           <div className="my-8">
             <p className="text-2xl text-primary-foreground/80 line-through">
-              De R$99,90
+              De R$99,99
             </p>
             <p className="text-5xl font-bold text-white sm:text-6xl">
-              por R$27,90
+              por R$15,99
             </p>
-            <p className="text-sm text-secondary-foreground/70 mt-1">Pagamento único, acesso vitalício.</p>
+            <p className="mt-1 text-sm text-secondary-foreground/70">
+              Pagamento único, acesso vitalício.
+            </p>
           </div>
           <div className="mt-10">
             <Button size="lg" className="w-full sm:w-auto" asChild>
