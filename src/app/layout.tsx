@@ -22,10 +22,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Belleza&display=swap"
           rel="stylesheet"
         />
-      </head>
-      <body className="font-body antialiased">
-        {children}
-        <Toaster />
         <Script id="meta-pixel-script" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -48,6 +44,10 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=901313589367493&ev=PageView&noscript=1"
           />
         </noscript>
+      </head>
+      <body className="font-body antialiased">
+        {children}
+        <Toaster />
       </body>
     </html>
   );
