@@ -16,15 +16,15 @@ export function FinalCtaSection() {
             Chega de vender sem lucro. Chega de trabalhar até a exaustão sem ver a cor do dinheiro. É hora de trabalhar com método.
           </p>
           <div className="my-8 text-white">
-            <p className="text-xl line-through opacity-70">
+            <p className="text-2xl line-through opacity-70">
               De R$99,99
             </p>
-            <p className="text-sm">Por apenas 12x de</p>
+            <p className="text-sm">Por apenas</p>
             <p className="text-6xl font-bold text-primary sm:text-7xl">
               R$15,99
             </p>
             <p className="mt-1 text-sm opacity-80">
-              ou R$159,90 à vista
+              Pagamento único
             </p>
           </div>
           <div className="mt-10">

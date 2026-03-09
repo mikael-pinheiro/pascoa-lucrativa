@@ -60,12 +60,12 @@ export function UrgencySection() {
             <p className="text-2xl text-muted-foreground line-through">
               De R$99,99
             </p>
-             <p className="text-sm text-muted-foreground">Por apenas 12x de</p>
+             <p className="text-sm text-muted-foreground">Por apenas</p>
             <p className="text-5xl font-bold text-primary sm:text-6xl">
               R$15,99
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-             ou R$159,90 à vista. O preço vai subir.
+             Pagamento único. O preço vai subir.
             </p>
           </div>
           <p className="mt-4 text-lg text-muted-foreground">
