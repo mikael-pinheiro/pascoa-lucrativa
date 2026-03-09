@@ -13,7 +13,6 @@ export function UrgencySection() {
     setIsClient(true);
   }, []);
 
-
   const renderer = ({ hours, minutes, seconds, completed }: { hours: number, minutes: number, seconds: number, completed: boolean }) => {
     if (completed) {
       return <p className="text-2xl font-bold text-primary">A OFERTA TERMINOU!</p>;
@@ -59,13 +58,14 @@ export function UrgencySection() {
           </div>
            <div className="my-8">
             <p className="text-2xl text-muted-foreground line-through">
-              De R$297,00
+              De R$99,99
             </p>
+             <p className="text-sm text-muted-foreground">Por apenas 12x de</p>
             <p className="text-5xl font-bold text-primary sm:text-6xl">
-              por R$15,99
+              R$15,99
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-              Pagamento único, acesso vitalício. O preço vai subir.
+             ou R$159,90 à vista. O preço vai subir.
             </p>
           </div>
           <p className="mt-4 text-lg text-muted-foreground">

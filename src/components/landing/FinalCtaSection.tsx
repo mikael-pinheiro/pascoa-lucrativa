@@ -17,7 +17,7 @@ export function FinalCtaSection() {
           </p>
           <div className="my-8 text-white">
             <p className="text-xl line-through opacity-70">
-              De R$297,00
+              De R$99,99
             </p>
             <p className="text-sm">Por apenas 12x de</p>
             <p className="text-6xl font-bold text-primary sm:text-7xl">
