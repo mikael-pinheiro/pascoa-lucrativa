@@ -1,56 +1,42 @@
-import {
-  Video,
-  Table,
-  ListChecks,
-  CalendarDays,
-  Sparkles,
-  PackagePlus,
-  MonitorPlay,
-} from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { BookOpen, CircleDollarSign, CookingPot, Instagram, ListChecks } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export function FeaturesSection() {
-  const features = [
-    { icon: Video, title: 'Aulas práticas passo a passo' },
-    { icon: Table, title: 'Planilhas de precificação automática' },
-    { icon: ListChecks, title: 'Checklist de produção' },
-    { icon: CalendarDays, title: 'Cronograma da Páscoa' },
-    { icon: Sparkles, title: 'Ideias de produtos campeões de venda' },
-    { icon: PackagePlus, title: 'Estratégias de combos e kits' },
+  const modules = [
+    { icon: BookOpen, title: 'Módulo 1: Introdução ao Negócio', description: 'O plano completo para iniciar seu negócio de páscoa lucrativa.' },
+    { icon: CookingPot, title: 'Módulo 2: Ovos Tradicionais e Gourmet', description: 'Receitas que vendem e técnicas para uma produção perfeita.' },
+    { icon: CookingPot, title: 'Módulo 3: Ovos de Colher de Sucesso', description: 'Os segredos dos recheios cremosos e montagem que encanta.' },
+    { icon: CircleDollarSign, title: 'Módulo 4: Precificação Inteligente', description: 'Aprenda a calcular seus preços para ter lucro de verdade.' },
+    { icon: Instagram, title: 'Módulo 5: Como Vender no Instagram', description: 'Crie um perfil atrativo e transforme seguidores em clientes.' },
+    { icon: ListChecks, title: 'Módulo 6: Organização e Vendas', description: 'Controle de pedidos, estoque e atendimento para não ter caos.' },
   ];
 
   return (
-    <section id="features" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-accent">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter text-secondary sm:text-4xl md:text-5xl">
-            O que você recebe
+            O Que Você Vai Aprender Passo a Passo
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Dentro do programa você terá acesso a:
+          <p className="mt-4 text-lg text-muted-foreground md:text-xl">
+            Um caminho claro e direto para você seguir, desde a primeira receita até a última venda.
           </p>
-          <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {features.map((feature) => (
-              <Card key={feature.title} className="text-center">
+          <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {modules.map((feature) => (
+              <Card key={feature.title} className="text-center flex flex-col">
                 <CardHeader>
-                  <feature.icon className="mx-auto h-10 w-10 text-primary" />
+                  <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
+                    <feature.icon className="h-6 w-6" />
+                  </div>
                 </CardHeader>
-                <CardContent>
-                  <CardTitle className="text-lg font-semibold">
+                <CardContent className="flex flex-col flex-grow">
+                  <CardTitle className="text-xl font-bold font-headline">
                     {feature.title}
                   </CardTitle>
+                  <p className="mt-2 text-muted-foreground flex-grow">{feature.description}</p>
                 </CardContent>
               </Card>
             ))}
-          </div>
-          <div className="mt-10 flex flex-col items-center gap-4 rounded-lg bg-accent p-8">
-            <MonitorPlay className="h-12 w-12 text-primary" />
-            <p className="text-xl font-bold text-foreground">
-              Acesso online imediato
-            </p>
-            <p className="max-w-md text-center text-muted-foreground">
-              Tudo organizado para você assistir e aplicar no mesmo dia.
-            </p>
           </div>
         </div>
       </div>

@@ -1,41 +1,51 @@
-import { Button } from '@/components/ui/button';
-import { CheckCircle2 } from 'lucide-react';
-import Link from 'next/link';
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { TrendingUp } from "lucide-react";
+
 
 export function SolutionSection() {
-  const solutions = [
-    'Produtos certos para vender mais rápido',
-    'Precificação profissional (lucro real, não “achismo”)',
-    'Organização da produção para render o dobro',
-    'Planejamento para não faltar nem sobrar estoque',
-    'Estratégias simples para aumentar ticket médio',
-  ];
+    const products = [
+        { name: 'Ovo Tradicional 250g', cost: 'R$ 12,00', sale: 'R$ 35,00', profit: 'R$ 23,00' },
+        { name: 'Ovo de Colher 350g', cost: 'R$ 18,00', sale: 'R$ 55,00', profit: 'R$ 37,00' },
+        { name: 'Caixa 6 Brigadeiros Gourmet', cost: 'R$ 9,00', sale: 'R$ 25,00', profit: 'R$ 16,00' },
+    ]
   return (
-    <section id="solucao" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="lucro" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter text-secondary sm:text-4xl md:text-5xl">
-            Não é só receita. É um método completo de lucro.
+            Veja na Prática o Lucro Que te Espera
           </h2>
-          <p className="mt-4 text-lg text-muted-foreground">Você vai aprender:</p>
-          <div className="mt-8 inline-block text-left">
-            <ul className="space-y-4">
-              {solutions.map((solution, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <CheckCircle2 className="mt-1 h-6 w-6 flex-shrink-0 text-green-600" />
-                  <span className="text-xl text-foreground">{solution}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <p className="mt-8 text-lg text-muted-foreground">
-            Tudo pensado para quem quer ganhar dinheiro de verdade com
-            confeitaria, não só cozinhar.
+          <p className="mt-4 text-lg text-muted-foreground md:text-xl">
+            Precificar corretamente é a diferença entre trabalhar muito por pouco e ter lucro de verdade. Veja uma simulação simples:
           </p>
-          <div className="mt-10">
-            <Button size="lg" asChild>
-              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">Quero aplicar o método agora</Link>
-            </Button>
+          <div className="mt-8 overflow-hidden rounded-lg border shadow-lg">
+            <Table>
+                <TableHeader>
+                    <TableRow>
+                        <TableHead className="font-bold">Produto</TableHead>
+                        <TableHead className="font-bold">Custo</TableHead>
+                        <TableHead className="font-bold">Venda</TableHead>
+                        <TableHead className="font-bold text-primary">Lucro por Unidade</TableHead>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    {products.map(p => (
+                        <TableRow key={p.name}>
+                            <TableCell>{p.name}</TableCell>
+                            <TableCell>{p.cost}</TableCell>
+                            <TableCell>{p.sale}</TableCell>
+                            <TableCell className="font-bold text-primary">{p.profit}</TableCell>
+                        </TableRow>
+                    ))}
+                </TableBody>
+            </Table>
+          </div>
+           <div className="mt-8 rounded-lg bg-accent p-6 text-center">
+            <TrendingUp className="mx-auto h-10 w-10 text-secondary" />
+            <p className="mt-4 text-2xl font-bold text-foreground">
+              Vendendo apenas 50 ovos de colher, você pode lucrar <span className="text-primary">R$1.850,00!</span>
+            </p>
+            <p className="mt-2 text-muted-foreground">Isso é mais que um salário mínimo trabalhando de casa, em poucas semanas.</p>
           </div>
         </div>
       </div>

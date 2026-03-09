@@ -4,35 +4,35 @@ import Link from 'next/link';
 export function FinalCtaSection() {
   return (
     <section
-      id="cta"
-      className="w-full bg-secondary py-16 md:py-24 lg:py-32"
+      id="cta-final"
+      className="w-full bg-[#3B1F1F] py-16 md:py-24 lg:py-32"
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl">
-            Sua melhor Páscoa pode começar hoje
+            Sua Chance de Ter a Melhor Páscoa da Sua Vida Começa Agora
           </h2>
-          <p className="mt-4 text-lg text-secondary-foreground/80">
-            Pare de vender sem lucro. Pare de improvisar. Comece a trabalhar com
-            estratégia.
+          <p className="mt-4 text-lg text-gray-200">
+            Chega de vender sem lucro. Chega de trabalhar até a exaustão sem ver a cor do dinheiro. É hora de trabalhar com método.
           </p>
-          <div className="my-8">
-            <p className="text-2xl text-primary-foreground/80 line-through">
-              De R$27,90
+          <div className="my-8 text-white">
+            <p className="text-xl line-through opacity-70">
+              De R$297,00
             </p>
-            <p className="text-5xl font-bold text-white sm:text-6xl">
-              por R$15,99
+            <p className="text-sm">Por apenas 12x de</p>
+            <p className="text-6xl font-bold text-primary sm:text-7xl">
+              R$15,99
             </p>
-            <p className="mt-1 text-sm text-secondary-foreground/70">
-              Pagamento único, acesso vitalício.
+            <p className="mt-1 text-sm opacity-80">
+              ou R$159,90 à vista
             </p>
           </div>
           <div className="mt-10">
-            <Button size="lg" className="w-full sm:w-auto" asChild>
-              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">QUERO LUCRAR NESTA PÁSCOA AGORA</Link>
+            <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto animate-pulse" asChild>
+              <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">🔴 QUERO LUCRAR NESSA PÁSCOA</Link>
             </Button>
-            <p className="mt-2 text-sm text-secondary-foreground/70">
-              Acesso imediato após a inscrição.
+            <p className="mt-4 text-sm text-gray-300">
+              Acesso imediato e vitalício. Compre com 100% de segurança.
             </p>
           </div>
         </div>

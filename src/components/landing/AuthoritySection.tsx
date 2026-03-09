@@ -7,7 +7,7 @@ export function AuthoritySection() {
   );
 
   return (
-    <section id="autoridade" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="autoridade" className="w-full bg-accent py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-10 md:grid-cols-2">
           <div className="flex justify-center">
@@ -16,9 +16,9 @@ export function AuthoritySection() {
                 src={authorityImage.imageUrl}
                 alt={authorityImage.description}
                 data-ai-hint={authorityImage.imageHint}
-                width={300}
-                height={300}
-                className="h-64 w-64 rounded-full object-cover shadow-2xl"
+                width={400}
+                height={400}
+                className="h-72 w-72 rounded-full object-cover shadow-2xl ring-4 ring-secondary/50"
               />
             )}
           </div>
@@ -28,12 +28,12 @@ export function AuthoritySection() {
             </h2>
             <p className="text-xl font-bold text-foreground">Viviane De Castro</p>
             <p className="text-lg text-muted-foreground">
-              já ajudou centenas de confeiteiras a transformarem datas sazonais
+              Já ajudou centenas de confeiteiras a transformarem datas sazonais
               em picos de faturamento.
             </p>
             <p className="font-semibold text-foreground">
               Nada de teoria complicada. Só o que realmente funciona no dia a dia
-              da produção.
+              da produção para gerar lucro de verdade.
             </p>
           </div>
         </div>
