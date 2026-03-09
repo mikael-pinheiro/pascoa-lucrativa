@@ -61,7 +61,7 @@ export function WhatsappProofSection() {
                     <div className="relative max-w-[90%] bg-[#202c33] rounded-lg p-2.5">
                     <p className="text-sm font-bold text-pink-400">Patrícia S.</p>
                     <p className="text-sm text-gray-200 mt-1">
-                        O que mais me ajudou foi a parte de cálculo de custos. Eu sempre vendia sem saber se estava lucrando de verdade. Agora eu sei exatamente meu custo e minha margem. Isso mudou tudo.
+                        o que mais me ajudou foi a parte de calculo de custos. Eu sempre vendia sem saber se tava lucrando de vdd. agr eu sei exatamente meu custo e minha margem. mudou tudo.
                     </p>
                     <div className="text-right text-xs text-gray-400 mt-1">12:04</div>
                     </div>
