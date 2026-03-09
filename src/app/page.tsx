@@ -11,9 +11,9 @@ import { UrgencySection } from '@/components/landing/UrgencySection';
 import { GuaranteeSection } from '@/components/landing/GuaranteeSection';
 import { FaqSection } from '@/components/landing/FaqSection';
 import { FinalCtaSection } from '@/components/landing/FinalCtaSection';
-import { Footer } from '@/components/landing/Footer';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { Footer } from '@/components/landing/Footer';
 
 
 export default function Home() {
