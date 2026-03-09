@@ -1,6 +1,5 @@
 import { Header } from '@/components/landing/Header';
 import { HeroSection } from '@/components/landing/HeroSection';
-import { ImageGallerySection } from '@/components/landing/ImageGallerySection';
 import { ProblemSection } from '@/components/landing/ProblemSection';
 import { BenefitsSection } from '@/components/landing/BenefitsSection';
 import { AgitationSection } from '@/components/landing/AgitationSection';
@@ -24,7 +23,6 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <ImageGallerySection />
         <ProblemSection />
         <BenefitsSection />
         <AgitationSection />
