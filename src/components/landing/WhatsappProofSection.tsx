@@ -13,7 +13,7 @@ export function WhatsappProofSection() {
             </p>
         </div>
 
-        <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Testimonial 1 - Camila R SP */}
           <div className="w-full rounded-lg shadow-2xl bg-[#0a181c] p-4 font-sans text-white overflow-hidden flex flex-col">
@@ -138,6 +138,71 @@ export function WhatsappProofSection() {
                 </div>
             </div>
           </div>
+          
+          {/* Testimonial 3 - Ana L S */}
+          <div className="w-full rounded-lg shadow-2xl bg-[#0a181c] p-4 font-sans text-white overflow-hidden flex flex-col">
+            <div className="flex justify-center mb-4">
+              <span className="bg-[#182229] text-gray-400 text-xs rounded-md px-2 py-1">
+                Hoje
+              </span>
+            </div>
+            <div className="flex-grow space-y-4">
+                <div className="flex justify-start">
+                    <div className="relative max-w-[90%] bg-[#202c33] rounded-lg p-2.5">
+                        <p className="text-sm font-bold text-green-400">Ana L S</p>
+                        <p className="text-sm text-gray-200 mt-1">
+                            Eu tinha medo de investir e não conseguir vender. Mas com as estratégias simples de divulgação consegui meus primeiros pedidos pelo Instagram em poucos dias. Valeu muito a pena
+                        </p>
+                        <div className="text-right text-xs text-gray-400 mt-1">12:08</div>
+                    </div>
+                </div>
+                <div className="flex justify-end">
+                    <div className="relative max-w-[90%] bg-[#005c4b] rounded-lg p-2.5 text-left">
+                        <p className="text-sm text-gray-200">
+                            Nossa Ana, que legal. Fico feliz por consegui usar o guia e fazer seu dinheirinho em casa 🏠
+                        </p>
+                        <div className="flex justify-end items-center text-xs text-gray-400 mt-1">
+                        <span>12:10</span>
+                        <span className="relative inline-block w-4 h-4 ml-1">
+                            <Check className="h-4 w-4 absolute left-0 text-blue-400" />
+                            <Check className="h-4 w-4 absolute left-1 text-blue-400" />
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex justify-start">
+                    <div className="relative max-w-[90%] bg-[#202c33] rounded-lg p-2.5">
+                        <p className="text-sm text-gray-200 mt-1">
+                            Estou conseguindo montar o preço certinho, já tenho encomendas !!! Isso me animou em hora vender ovos, quer comprar kkkkk !!!?
+                        </p>
+                        <div className="text-right text-xs text-gray-400 mt-1">12:12</div>
+                    </div>
+                </div>
+                <div className="flex justify-end">
+                    <div className="relative max-w-[90%] bg-[#005c4b] rounded-lg p-2.5 text-left">
+                        <p className="text-sm text-gray-200">
+                            Aí que felicidade em ver sua empolgação, se não morassem tão longe eu já encomendaram com você!!!
+                        </p>
+                        <div className="flex justify-end items-center text-xs text-gray-400 mt-1">
+                        <span>12:12</span>
+                        <span className="relative inline-block w-4 h-4 ml-1">
+                            <Check className="h-4 w-4 absolute left-0 text-blue-400" />
+                            <Check className="h-4 w-4 absolute left-1 text-blue-400" />
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                 <div className="flex justify-start">
+                    <div className="relative max-w-[90%] bg-[#202c33] rounded-lg p-2.5">
+                         <p className="text-sm text-gray-200 mt-1">
+                            Pode deixar, obrigado viu
+                        </p>
+                        <div className="text-right text-xs text-gray-400 mt-1">12:13</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
