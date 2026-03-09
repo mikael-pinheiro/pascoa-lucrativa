@@ -28,7 +28,7 @@ export function FinalCtaSection() {
             </p>
           </div>
           <div className="mt-10">
-            <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto animate-pulse" asChild>
+            <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto" asChild>
               <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">🔴 QUERO LUCRAR NESSA PÁSCOA</Link>
             </Button>
             <p className="mt-4 text-sm text-gray-300">

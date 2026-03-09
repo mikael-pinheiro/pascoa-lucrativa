@@ -25,14 +25,14 @@ export default function Home() {
         <ProblemSection />
         <DesireSection />
         <div className="py-12 text-center bg-background">
-          <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto animate-pulse" asChild>
+          <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto" asChild>
             <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">🔴 QUERO LUCRAR NESSA PÁSCOA</Link>
           </Button>
         </div>
         <ProfitSimulationSection />
         <ModulesSection />
          <div className="py-12 text-center bg-accent">
-          <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto animate-pulse" asChild>
+          <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto" asChild>
             <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">🔴 QUERO LUCRAR NESSA PÁSCOA</Link>
           </Button>
         </div>

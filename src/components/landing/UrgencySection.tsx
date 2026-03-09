@@ -60,7 +60,7 @@ export function UrgencySection() {
             <p className="text-2xl text-muted-foreground line-through">
               De R$99,99
             </p>
-             <p className="text-sm text-muted-foreground">Por apenas</p>
+            <p className="text-sm text-muted-foreground">Por apenas</p>
             <p className="text-5xl font-bold text-primary sm:text-6xl">
               R$15,99
             </p>
@@ -75,7 +75,7 @@ export function UrgencySection() {
             Cada dia parado é dinheiro que você está deixando de ganhar.
           </p>
           <div className="mt-8">
-            <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto animate-pulse" asChild>
+            <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-bold text-lg py-7 px-10 sm:w-auto" asChild>
               <Link href="https://app.bancobabylon.com/payment/checkout/8b1471d4-f8df-4db1-9437-0131a2131459">GARANTIR MEU DESCONTO</Link>
             </Button>
           </div>
